@@ -18,6 +18,7 @@
 .iconsWrapper {
   display: flex;
   column-gap: 50px;
+  padding-top: 2px;
 }
 
 .wrapper {
@@ -53,4 +54,10 @@
 
 .activeWrapper {
   border-bottom: 2px solid #c96c66;
+}
+
+@media only screen and (max-width: 1200px) {
+  .root {
+    justify-content: center;
+  }
 }

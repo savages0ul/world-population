@@ -1,4 +1,92 @@
 .root {
+  max-width: 1920px;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 230px;
+  padding-bottom: 104px;
   background: #2c343c;
-  height: 100vh;
+}
+
+.gridWrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+}
+
+.smart {
+  grid-template-columns: 1fr;
+}
+
+.paginate {
+  margin-top: 133px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.paginateButton {
+  display: flex;
+  column-gap: 10px;
+  list-style: none;
+  color: #fcfcfc;
+}
+
+.paginateButton a {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  font-size: 14px;
+  cursor: pointer;
+  width: 30px;
+  height: 40px;
+
+  &:before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: #fcfcfc;
+    clip-path: polygon(
+      0 0,
+      calc(100% - 10px) 0,
+      100% 10px,
+      100% 100%,
+      0 100%,
+      0 0,
+      1px 1px,
+      1px calc(100% - 1px),
+      calc(100% - 1px) calc(100% - 1px),
+      calc(100% - 1px) calc(10px + 0.41px),
+      calc(100% - 10px - 0.41px) 1px,
+      1px 1px
+    );
+  }
+}
+
+.active {
+  color: #c96c66;
+}
+
+.active a {
+  &:before {
+    background: #c96c66;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .root {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .gridWrapper {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .gridWrapper {
+    grid-template-columns: 1fr;
+  }
 }

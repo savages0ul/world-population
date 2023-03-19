@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/world-population/static/css/main.b17e1257.css",
+    "main.js": "/world-population/static/js/main.57dde571.js",
+    "static/js/787.8d216baa.chunk.js": "/world-population/static/js/787.8d216baa.chunk.js",
+    "static/media/Roboto-Medium.ttf": "/world-population/static/media/Roboto-Medium.7c8d04cd831df3033c8a.ttf",
+    "static/media/Roboto-Regular.ttf": "/world-population/static/media/Roboto-Regular.fc2b5060f7accec5cf74.ttf",
+    "static/media/logo.svg": "/world-population/static/media/logo.93abe45a4ddc2ad72af397d3f8931eec.svg",
+    "index.html": "/world-population/index.html",
+    "static/media/heart.svg": "/world-population/static/media/heart.1df75d619aebc7051f0e320375dfc008.svg",
+    "main.b17e1257.css.map": "/world-population/static/css/main.b17e1257.css.map",
+    "main.57dde571.js.map": "/world-population/static/js/main.57dde571.js.map",
+    "787.8d216baa.chunk.js.map": "/world-population/static/js/787.8d216baa.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b17e1257.css",
+    "static/js/main.57dde571.js"
+  ]
+}
